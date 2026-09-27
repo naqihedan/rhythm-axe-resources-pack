@@ -1,0 +1,1201 @@
+{
+  "format_version": "1.21.11",
+  "credit": "Made with Blockbench",
+  "parent": "rhythm_axe:item/axe_skin_3",
+  "textures": {
+    "trail": "rhythm_axe:item/trail3",
+    "particle": "item/iron_axe"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        112.673,
+        2.959,
+        221.31
+      ],
+      "translation": [
+        -1.668,
+        13.5,
+        -9.238
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "trail",
+      "from": [
+        2.0,
+        2.0,
+        8.0
+      ],
+      "to": [
+        16.0,
+        2.1009770717666973,
+        8.0
+      ],
+      "rotation": {
+        "x": 297.3667902089933,
+        "y": 0.0,
+        "z": 45.0,
+        "origin": [
+          2.0,
+          2.0,
+          8.0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#trail"
+        },
+        "east": {
+          "uv": [
+            2,
+            0,
+            2,
+            2
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#trail"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            10,
+            0
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            0,
+            2,
+            10,
+            2
+          ],
+          "texture": "#missing"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_0",
+      "from": [
+        9,
+        8,
+        7.5
+      ],
+      "to": [
+        11,
+        15,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            11,
+            1,
+            9,
+            8
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            10,
+            1,
+            11,
+            8
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            11,
+            8
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            9,
+            1,
+            10,
+            8
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            9,
+            1,
+            11,
+            2
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            9,
+            7,
+            11,
+            8
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_1",
+      "from": [
+        8,
+        6,
+        7.5
+      ],
+      "to": [
+        9,
+        14,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            2,
+            8,
+            10
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            8,
+            2,
+            9,
+            10
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            8,
+            2,
+            9,
+            10
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            8,
+            2,
+            9,
+            10
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            8,
+            2,
+            9,
+            3
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            8,
+            9,
+            9,
+            10
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_2",
+      "from": [
+        11,
+        7,
+        7.5
+      ],
+      "to": [
+        12,
+        14,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            2,
+            11,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            11,
+            2,
+            12,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            11,
+            2,
+            12,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            11,
+            2,
+            12,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            11,
+            2,
+            12,
+            3
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            11,
+            8,
+            12,
+            9
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_3",
+      "from": [
+        7,
+        9,
+        7.5
+      ],
+      "to": [
+        8,
+        13,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            3,
+            7,
+            7
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            7,
+            3,
+            8,
+            7
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            7,
+            3,
+            8,
+            7
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            7,
+            3,
+            8,
+            7
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            7,
+            3,
+            8,
+            4
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            7,
+            6,
+            8,
+            7
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_4",
+      "from": [
+        6,
+        10,
+        7.5
+      ],
+      "to": [
+        7,
+        12,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            4,
+            6,
+            6
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            6,
+            4,
+            7,
+            6
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            6,
+            4,
+            7,
+            6
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            6,
+            4,
+            7,
+            6
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            6,
+            4,
+            7,
+            5
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            6,
+            5,
+            7,
+            6
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_5",
+      "from": [
+        12,
+        7,
+        7.5
+      ],
+      "to": [
+        13,
+        12,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13,
+            4,
+            12,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            12,
+            4,
+            13,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            12,
+            4,
+            13,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            12,
+            4,
+            13,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            12,
+            4,
+            13,
+            5
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            12,
+            8,
+            13,
+            9
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_6",
+      "from": [
+        13,
+        8,
+        7.5
+      ],
+      "to": [
+        14,
+        10,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            6,
+            13,
+            8
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            13,
+            6,
+            14,
+            8
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            13,
+            6,
+            14,
+            8
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            13,
+            6,
+            14,
+            8
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            13,
+            6,
+            14,
+            7
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            13,
+            7,
+            14,
+            8
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_7",
+      "from": [
+        7,
+        5,
+        7.5
+      ],
+      "to": [
+        8,
+        8,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8,
+            8,
+            7,
+            11
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            7,
+            8,
+            8,
+            11
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            7,
+            8,
+            8,
+            11
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            7,
+            8,
+            8,
+            11
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            7,
+            8,
+            8,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            7,
+            10,
+            8,
+            11
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_8",
+      "from": [
+        9,
+        7,
+        7.5
+      ],
+      "to": [
+        10,
+        8,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            10,
+            8,
+            9,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            9,
+            8,
+            10,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            9,
+            8,
+            10,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            9,
+            8,
+            10,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            9,
+            8,
+            10,
+            9
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            9,
+            8,
+            10,
+            9
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_9",
+      "from": [
+        6,
+        4,
+        7.5
+      ],
+      "to": [
+        7,
+        7,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            9,
+            6,
+            12
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            6,
+            9,
+            7,
+            12
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            6,
+            9,
+            7,
+            12
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            6,
+            9,
+            7,
+            12
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            6,
+            9,
+            7,
+            10
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            6,
+            11,
+            7,
+            12
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_10",
+      "from": [
+        5,
+        3,
+        7.5
+      ],
+      "to": [
+        6,
+        6,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            10,
+            5,
+            13
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            5,
+            10,
+            6,
+            13
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            5,
+            10,
+            6,
+            13
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            5,
+            10,
+            6,
+            13
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            5,
+            10,
+            6,
+            11
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            5,
+            12,
+            6,
+            13
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_11",
+      "from": [
+        4,
+        2,
+        7.5
+      ],
+      "to": [
+        5,
+        5,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            11,
+            4,
+            14
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            4,
+            11,
+            5,
+            14
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            4,
+            11,
+            5,
+            14
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            4,
+            11,
+            5,
+            14
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            4,
+            11,
+            5,
+            12
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            4,
+            13,
+            5,
+            14
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_12",
+      "from": [
+        3,
+        1,
+        7.5
+      ],
+      "to": [
+        4,
+        4,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            4,
+            12,
+            3,
+            15
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            3,
+            12,
+            4,
+            15
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            3,
+            12,
+            4,
+            15
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            3,
+            12,
+            4,
+            15
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            3,
+            12,
+            4,
+            13
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            3,
+            14,
+            4,
+            15
+          ],
+          "texture": "#layer0"
+        }
+      }
+    },
+    {
+      "name": "iron_axe_13",
+      "from": [
+        2,
+        1,
+        7.5
+      ],
+      "to": [
+        3,
+        3,
+        8.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            3,
+            13,
+            2,
+            15
+          ],
+          "texture": "#layer0"
+        },
+        "east": {
+          "uv": [
+            2,
+            13,
+            3,
+            15
+          ],
+          "texture": "#layer0"
+        },
+        "south": {
+          "uv": [
+            2,
+            13,
+            3,
+            15
+          ],
+          "texture": "#layer0"
+        },
+        "west": {
+          "uv": [
+            2,
+            13,
+            3,
+            15
+          ],
+          "texture": "#layer0"
+        },
+        "up": {
+          "uv": [
+            2,
+            13,
+            3,
+            14
+          ],
+          "texture": "#layer0"
+        },
+        "down": {
+          "uv": [
+            2,
+            14,
+            3,
+            15
+          ],
+          "texture": "#layer0"
+        }
+      }
+    }
+  ]
+}

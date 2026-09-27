@@ -1,0 +1,18 @@
+{
+  "rhythm_axe.audio": {
+    "sounds": [
+      {
+        "name": "rhythm_axe:audio",
+        "stream": true
+      }
+    ]
+  },
+  "rhythm_axe.lament_rain": {
+  "sounds": [
+    {
+      "name": "rhythm_axe:lament_rain",
+      "stream": true
+    }
+  ]
+}
+}

@@ -1,0 +1,15 @@
+# 二进制资源，禁止行尾转换
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ogg   binary
+*.xmp   binary
+*.jar   binary
+
+# 文本资源统一 LF
+*.json    text eol=lf
+*.mcmeta  text eol=lf
+*.bbmodel text eol=lf
+*.md      text eol=lf
+*.py      text eol=lf
+*.mjs     text eol=lf

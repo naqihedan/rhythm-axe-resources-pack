@@ -8,11 +8,19 @@
     ]
   },
   "rhythm_axe.lament_rain": {
-  "sounds": [
-    {
-      "name": "rhythm_axe:lament_rain",
-      "stream": true
-    }
-  ]
-}
+    "sounds": [
+      {
+        "name": "rhythm_axe:lament_rain",
+        "stream": true
+      }
+    ]
+  },
+  "rhythm_axe.goodworld": {
+    "sounds": [
+      {
+        "name": "rhythm_axe:goodworld",
+        "stream": true
+      }
+    ]
+  }
 }

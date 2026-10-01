@@ -476,7 +476,8 @@ def write_json(path, obj):
 def write_frame_counts(counts):
     pairs = ", ".join("%s:%d" % (c, counts[c]) for c in CLIPS)
     content = ("# 自动生成（gen_swing_frames.py）——每段挥砍的帧数，start 时按 type 读取\n"
-               "data modify storage rhythm_axe:swing_frames set value {%s}\n" % pairs)
+               "# ⚠️ 写的是存储「根键」，必须用 data merge（data modify 的目标必须带路径、不能是存储根）\n"
+               "data merge storage rhythm_axe:swing_frames {%s}\n" % pairs)
     os.makedirs(os.path.dirname(FRAME_COUNTS_FILE), exist_ok=True)
     with open(FRAME_COUNTS_FILE, "w", encoding="utf-8") as fh:
         fh.write(content)
